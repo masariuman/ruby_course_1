@@ -33,8 +33,24 @@ case a
 
 when 'a'
   puts 'hasilnya penjumlahan'
+  puts 'masukkan angka pertama'
+  b = gets.chomp
+  bb = b.to_i
+  puts 'masukkan angka kedua'
+  c = gets.chomp
+  cc = c.to_i
+  hasil = bb + cc
+  puts "hasil penjumlahan diatas adalah #{hasil} "  
 when 'b'
   puts 'hasilnya pengurangan'
+  puts 'masukkan angka pertama'
+  b = gets.chomp
+  bb = b.to_i
+  puts 'masukkan angka kedua'
+  c = gets.chomp
+  cc = c.to_i
+  hasil = bb - cc
+  puts "hasil penjumlahan diatas adalah #{hasil} "  
 else
   puts 'ga jelas'
 end
